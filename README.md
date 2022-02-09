@@ -1,5 +1,3 @@
-# Porfolio-Me
+### Hi there, I am Ritik Jaiswal👋
 
-Status : Completed 
-
-https://ritikjaiswal019.github.io/
+[Click Here to View My Portfolio Website](https://www.ritikjaiswal.com)
