@@ -1,23 +1,22 @@
 :root {
+    /* Replace */
+    --black-shade:#1A1A1A;
     --dark-navy: #020c1b;
-    /* --dark-navy: black; */
+    
     --navy: #0a192f;
-    /* --navy: black; */
     --light-navy: #112240;
-    /* --light-navy: black; */
-    /* --lightest-navy: #233554; */
     --lightest-navy: #233554;
     --navy-shadow: rgba(2,12,27,0.7);
-    /* --dark-slate: #495670; */
     --dark-slate: #495670;
-    /* --slate: #8892b0; */
     --slate: #8892b0;
-    /* --light-slate: #a8b2d1; */
     --light-slate: #a8b2d1;
-    /* --lightest-slate: #ccd6f6; */
     --lightest-slate: #ccd6f6;
     --white: #e6f1ff;
+
+    /* Replace */
+    --orange:#bd3b22;
     --green: #64ffda;
+
     /* --green: white; */
     --green-tint: rgba(100,255,218,0.1);
     --pink: #f57dff;
@@ -88,7 +87,7 @@ body{
     min-height: 100%;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
+    background-color: var(--black-shade);
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
@@ -126,7 +125,7 @@ body{
     .lettersvg{
         position: absolute;
         top: 6px;
-        color: var(--green);
+        color: var(--orange);
         opacity: 1;
         left: 24px;
         animation: fade 4s ;
@@ -155,7 +154,7 @@ body{
     background: var(--slate);
 }
 :focus {
-    outline: 2px dashed var(--green) !important;
+    outline: 2px dashed var(--orange) !important;
     outline-offset: 3px;
 }
 a {
@@ -167,7 +166,7 @@ a {
     transition: var(--transition);
 }
 a:hover, a:focus {
-    color: var(--green);
+    color: var(--orange);
 }
 button {
     cursor: pointer;
@@ -202,7 +201,7 @@ p > a {
     text-decoration-skip-ink: auto;
     position: relative;
     transition: var(--transition);
-    color: var(--green);
+    color: var(--orange);
 }
 button:focus:not(:focus-visible) {
     outline: 0 !important;
@@ -214,7 +213,7 @@ a.inline-link::after {
     height: 1px;
     position: relative;
     bottom: 0.37em;
-    background-color: var(--green);
+    background-color: var(--orange);
     transition: var(--transition);
     opacity: 0.5;
 }
@@ -227,12 +226,12 @@ a.inline-link::after {
     font-size: var(--fz-sm);
 }
 .nav-link:hover{
-    color: var(--green) !important;
+    color: var(--orange) !important;
 }
 .resume-btn{
-    color: var(--green);
+    color: var(--orange);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--orange);
     border-radius: var(--border-radius);
     padding: 0.75rem 1rem;
     font-family: var(--font-mono);
@@ -257,7 +256,7 @@ a.inline-link::after {
     padding: 0px 50px;
     width: 100%;
     height: var(--nav-height);
-    background-color: rgba(10, 25, 47, 0.85);
+    background-color: var(--dark-black);
     backdrop-filter: blur(10px);
     transition: var(--transition);
     filter: none !important;
@@ -285,12 +284,12 @@ a.inline-link::after {
     align-items: center;
 }
 .kFCHyX .logo a {
-    color: var(--green);
+    color: var(--orange);
     width: 42px;
     height: 42px;
 }
 #logo {
-    color: var(--green);
+    color: var(--orange);
 }
 .kFCHyX .logo a svg {
     fill: none;
@@ -324,14 +323,14 @@ a.inline-link::after {
 .buZqzj ol li a::before {
     content: "0" counter(item) ".";
     margin-right: 5px;
-    color: var(--green);
+    color: var(--orange);
     font-size: var(--fz-xxs);
     text-align: right;
 }
 .buZqzj .resume-button {
-    color: var(--green);
+    color: var(--orange);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--orange);
     border-radius: var(--border-radius);
     padding: 0.75rem 1rem;
     font-family: var(--font-mono);
@@ -362,7 +361,7 @@ a.inline-link::after {
     width: var(--hamburger-width);
     height: 2px;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--orange);
     transition: transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s;
     transform: rotate(
         0deg);
@@ -376,7 +375,7 @@ a.inline-link::after {
         width: var(--hamburger-width);
         height: 2px;
         border-radius: 4px;
-        background-color: var(--green);
+        background-color: var(--orange);
         transition-timing-function: ease;
         transition-duration: 0.15s;
         transition-property: transform;
@@ -432,9 +431,9 @@ a.inline-link::after {
         padding: 3px 20px 20px;
     }
     .dKogfI .resume-link {
-        color: var(--green);
+        color: var(--orange);
         background-color: transparent;
-        border: 1px solid var(--green);
+        border: 1px solid var(--orange);
         border-radius: var(--border-radius);
         font-size: var(--fz-sm);
         font-family: var(--font-mono);
@@ -477,7 +476,7 @@ a.inline-link::after {
         content: "0" counter(item) ".";
         display: block;
         margin-bottom: 5px;
-        color: var(--green);
+        color: var(--orange);
         font-size: var(--fz-sm);
     }
     .dSbVSd ol a {
@@ -491,9 +490,9 @@ a.inline-link::after {
         padding: 3px 20px 20px;
     }
     .dSbVSd .resume-link {
-        color: var(--green);
+        color: var(--orange);
         background-color: transparent;
-        border: 1px solid var(--green);
+        border: 1px solid var(--orange);
         border-radius: var(--border-radius);
         font-size: var(--fz-sm);
         font-family: var(--font-mono);
@@ -642,7 +641,7 @@ a.inline-link::after {
 }
 #intro h1{
     margin: 0px 0px 30px 4px;
-    color: var(--green);
+    color: var(--orange);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
     font-weight: 400;
@@ -661,9 +660,9 @@ a.inline-link::after {
     max-width: 540px;
 }
 #intro .email-link{
-    color: var(--green);
+    color: var(--orange);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--orange);
     border-radius: var(--border-radius);
     padding: 1.25rem 1.75rem;
     font-size: var(--fz-sm);
@@ -695,7 +694,7 @@ a.inline-link::after {
     counter-increment: section 1;
     content: "0" counter(section) ".";
     margin-right: 10px;
-    color: var(--green);
+    color: var(--orange);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-md),3vw,var(--fz-xl));
     font-weight: 400;
@@ -736,7 +735,7 @@ a.inline-link::after {
     content: "▹";
     position: absolute;
     left: 0px;
-    color: var(--green);
+    color: var(--orange);
     font-size: var(--fz-sm);
     line-height: 12px;
 }
@@ -751,7 +750,7 @@ a.inline-link::after {
     position: relative;
     width: 100%;
     border-radius: var(--border-radius);
-    background-color: var(--green);
+    background-color: var(--orange);
     border-radius: 25px;
 }
 .iTdkQf .wrapper::before {
@@ -780,7 +779,7 @@ a.inline-link::after {
     z-index: -1;
 }
 .iTdkQf .wrapper::after {
-    border: 2px solid var(--green);
+    border: 2px solid var(--orange);
     top: 20px;
     left: 20px;
     z-index: -1;
@@ -815,7 +814,7 @@ a.inline-link::after {
     right: 0;
     top: 0;
     width: 100%;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     object-fit: cover;
 }
 .gatsby-image-wrapper img::after{
@@ -856,17 +855,17 @@ a.inline-link::after {
 }
 .jBtKSS:hover, .jBtKSS:focus {
     background-color: var(--light-navy) !important;
-    color: var(--green) !important;
+    color: var(--orange) !important;
     outline: 0px !important;
 }
 .sAHTI .active{
-    color: var(--green) !important;
-    border-color: var(--green) !important;
+    color: var(--orange) !important;
+    border-color: var(--orange) !important;
 }
 .sAHTI .active:hover, .sAHTI .active:focus{
     outline: none !important;
-    color: var(--green) !important;
-    border-color: var(--green) !important;
+    color: var(--orange) !important;
+    border-color: var(--orange) !important;
 }
 .QgHxr {
     width: 100%;
@@ -880,7 +879,7 @@ a.inline-link::after {
     line-height: 1.3;
 }
 .QgHxr h3 .company {
-    color: var(--green);
+    color: var(--orange);
 }
 a.inline-link {
     display: inline-block;
@@ -888,7 +887,7 @@ a.inline-link {
     text-decoration-skip-ink: auto;
     position: relative;
     transition: var(--transition);
-    color: var(--green);
+    color: var(--orange);
 }
 .QgHxr ul {
     padding: 0px;
@@ -905,7 +904,7 @@ a.inline-link {
     content: "▹";
     position: absolute;
     left: 0px;
-    color: var(--green);
+    color: var(--orange);
 }
 
 .jdfosx {
@@ -935,7 +934,7 @@ a.inline-link {
 }
 .eeeRej .project-overline {
     margin: 10px 0px;
-    color: var(--green);
+    color: var(--orange);
     font-family: var(--font-mono);
     font-size: var(--fz-xs);
     font-weight: 400;
@@ -1036,6 +1035,9 @@ a.inline-link {
     border-radius: var(--border-radius);
     vertical-align: middle;
 }
+.eeeRej .project-image a:hover{
+    background-color: transparent;
+}
 .eeeRej .project-image a::before {
     content: "";
     position: absolute;
@@ -1106,7 +1108,7 @@ a.inline-link {
     margin-bottom: 35px;
 }
 .dIMCBf .project-top .folder {
-    color: var(--green);
+    color: var(--orange);
 }
 .dIMCBf .project-top .folder svg {
     width: 40px;
@@ -1182,9 +1184,9 @@ a.inline-link {
     margin-right: 15px;
 }
 .cMhhGM .more-button {
-    color: var(--green);
+    color: var(--orange);
     background-color: transparent;
-    border: 1px solid var(--green);
+    border: 1px solid var(--orange);
     border-radius: var(--border-radius);
     font-size: var(--fz-xs);
     font-family: var(--font-mono);
@@ -1267,7 +1269,7 @@ a.inline-link {
         width: min(75vw, 400px);
         height: 100vh;
         outline: 0px;
-        background-color: var(--light-navy);
+        background-color: var(--black-shade);
         box-shadow: -10px 0px 30px -15px var(--navy-shadow);
         z-index: 9;
         transform: translateX(0vw);
@@ -1323,7 +1325,7 @@ a.inline-link {
         width: var(--hamburger-width);
         height: 2px;
         border-radius: var(--border-radius);
-        background-color: var(--green);
+        background-color: var(--orange);
         transition: transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
         transform: rotate(
     225deg);
@@ -1350,7 +1352,7 @@ a.inline-link {
         width: var(--hamburger-width);
         height: 2px;
         border-radius: 4px;
-        background-color: var(--green);
+        background-color: var(--orange);
         transition-timing-function: ease;
         transition-duration: 0.15s;
         transition-property: transform;
