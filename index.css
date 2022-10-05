@@ -285,8 +285,9 @@ a.inline-link::after {
 }
 .kFCHyX .logo a {
     color: var(--orange);
-    width: 42px;
+    width: auto !important;
     height: 42px;
+    display: contents;
 }
 #logo {
     color: var(--orange);
